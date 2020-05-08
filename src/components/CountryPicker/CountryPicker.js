@@ -23,7 +23,7 @@ const CountryPicker = ({ countryChange }) => {
           countryChange(e.target.value);
         }}
       >
-        <option value="global">Global</option>
+        <option value="">Global</option>
         {fetchedcountries.map((country, index) => {
           return (
             <option key={index} value={country}>

@@ -1,0 +1,13 @@
+.container {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.inputBox {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
